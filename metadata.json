@@ -1,0 +1,8 @@
+{
+  "name": "Logeshwaran Portfolio",
+  "description": "Personal portfolio website of Logeshwaran M, Final-year Computer Science Student & Aspiring Java Full Stack Developer.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

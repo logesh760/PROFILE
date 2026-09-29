@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logeshwaran M — Java Full Stack Developer & CS Engineer</title>
+  <meta name="description" content="Portfolio of Logeshwaran M, Final-Year Computer Science Student & Aspiring Java Full Stack Developer. Featured projects include FinGuard AI, Lokey AI, LocalDesk-AI, and Spring Boot backend systems.">
+  <meta property="og:title" content="Logeshwaran M — Java Full Stack Developer & CS Engineer">
+  <meta property="og:description" content="Final-year Computer Science student specializing in Java backend architecture, FinGuard AI financial scam detection, and AI-accelerated web applications.">
+  <meta property="og:type" content="website">
+
+  <!-- Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <!-- Sticky Modern Navigation -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="nav-inner" aria-label="Main Navigation">
+        <a href="#hero" class="brand">
+          <div class="brand-badge">LM</div>
+          <div class="brand-title">
+            Logeshwaran<span>.dev</span>
+            <span class="brand-role">CS Engineer</span>
+          </div>
+        </a>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="nav-cta-btn resume-trigger-btn" id="nav-resume-btn">
+              <i class="fa-solid fa-file-pdf"></i> Resume
+            </a>
+          </li>
+        </ul>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Text Content -->
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <span class="status-dot"></span>
+              Final-Year B.E. Computer Science &bull; Graduating 2027
+            </div>
+
+            <h1 class="hero-heading">
+              Building reliable software with <span class="name-highlight">Java</span>, modern web stacks, and practical AI.
+            </h1>
+
+            <p class="hero-bio">
+              Hi, I'm <strong>Logeshwaran M</strong>, a Computer Science student based in Salem, India.
+              I develop core Java applications, Spring Boot backend systems, and AI-accelerated web tools with an emphasis on clean architecture and practical problem-solving.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                View Projects <i class="fa-solid fa-arrow-down"></i>
+              </a>
+              <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary resume-trigger-btn">
+                <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+              </a>
+              <a href="#contact" class="btn btn-ghost">
+                Contact Me &rarr;
+              </a>
+            </div>
+
+            <div class="hero-meta-bar">
+              <div class="hero-social-links">
+                <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/logeshwaranm" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:logeshwaranm180@gmail.com" class="social-link" title="Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="tel:+917603993833" class="social-link" title="Phone">
+                  <i class="fa-solid fa-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3D Developer Console Visual -->
+          <div class="hero-visual-wrapper">
+            <div class="console-3d-card" id="hero-console">
+              
+              <div class="console-header">
+                <div class="console-dots">
+                  <span class="dot red"></span>
+                  <span class="dot yellow"></span>
+                  <span class="dot green"></span>
+                </div>
+                <div class="console-tabs">
+                  <button class="console-tab active" data-tab="finguard">FinGuardEngine.js</button>
+                  <button class="console-tab" data-tab="java">LokeyService.java</button>
+                  <button class="console-tab" data-tab="kotlin">Workspace.kt</button>
+                  <button class="console-tab" data-tab="trading">StockEngine.java</button>
+                </div>
+              </div>
+
+              <!-- Code View Panel -->
+              <div class="console-body" id="console-code-display">
+                <div class="code-line">
+                  <span class="line-num">1</span>
+                  <span class="code-content"><span class="kw">import</span> { <span class="cls">GeminiRiskAnalyzer</span> } <span class="kw">from</span> <span class="str">'./riskEngine.js'</span>;</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">2</span>
+                  <span class="code-content"><span class="comm">// FinGuard AI: Multi-Platform Transaction & UPI Scam Risk Engine</span></span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">3</span>
+                  <span class="code-content"><span class="kw">export async function</span> <span class="fn">evaluateFinancialActivity</span>(event) {</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">4</span>
+                  <span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> heuristics = <span class="fn">detectBehavioralDeviation</span>(event);</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">5</span>
+                  <span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> isUpiAnomaly = <span class="fn">auditUpiMandatePattern</span>(event.upi);</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">6</span>
+                  <span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> aiRiskScore = <span class="kw">await</span> <span class="cls">GeminiRiskAnalyzer</span>.<span class="fn">scoreThreat</span>({</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">7</span>
+                  <span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;heuristics, isUpiAnomaly, metadata: event.commContext</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">8</span>
+                  <span class="code-content">&nbsp;&nbsp;});</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">9</span>
+                  <span class="code-content">&nbsp;&nbsp;<span class="kw">return</span> <span class="fn">generateExplainableAlert</span>(aiRiskScore);</span>
+                </div>
+                <div class="code-line">
+                  <span class="line-num">10</span>
+                  <span class="code-content">}</span>
+                </div>
+              </div>
+
+              <!-- Author Credential Strip -->
+              <div class="console-author-strip">
+                <div class="author-info">
+                  <img src="profile.jpg" alt="Logeshwaran M" class="author-avatar">
+                  <div class="author-meta">
+                    <h4>Logeshwaran M</h4>
+                    <p>Mahendra Inst. of Tech &bull; B.E. CSE</p>
+                  </div>
+                </div>
+                <span class="author-stat-badge">8.11 / 10 CGPA</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-tag">// Portfolio & Case Studies</span>
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-desc">
+            Real software systems built with Java, React, Kotlin, and modern AI development workflows. No fabricated statistics or hypothetical designs.
+          </p>
+        </div>
+
+        <div class="projects-container">
+
+          <!-- Featured Project 1 (Lead Priority): FinGuard AI -->
+          <article class="project-case-card tilt-card" id="finguard-project-card">
+            <div class="project-case-inner">
+              <div class="project-case-content">
+                <div>
+                  <div class="project-badge-row">
+                    <span class="project-type-pill badge-finguard">
+                      <i class="fa-solid fa-shield-halved"></i> AI Cyber Security & Protection
+                    </span>
+                    <span class="project-date">Advanced Development</span>
+                  </div>
+
+                  <h3 class="project-name">FinGuard AI — Financial Scam Detection System</h3>
+
+                  <p class="project-summary">
+                    A multi-platform financial scam detection system engineered to identify suspicious financial activities, transactions, UPI requests, AutoPay mandates, and potentially fraudulent communication using hybrid rule analysis, behavioral deviation detection, and AI-powered risk scoring.
+                  </p>
+
+                  <div class="project-details-grid">
+                    <div class="detail-block">
+                      <h5>Problem</h5>
+                      <p>Digital financial scams across UPI collect requests, unexpected recurring AutoPay mandates, and phishing messages exploit user vulnerability without immediate, explainable risk alerts.</p>
+                    </div>
+
+                    <div class="detail-block">
+                      <h5>Solution & Key Capabilities</h5>
+                      <ul>
+                        <li>Real-time financial transaction risk analysis and behavioral baseline anomaly detection.</li>
+                        <li>Automated detection of suspicious UPI requests, unknown receiver patterns, and high-frequency micro-debits.</li>
+                        <li>AutoPay mandate activity auditing with plain-language risk explanations and threat alerts.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="tech-tag-row">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Vite</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">Express.js</span>
+                    <span class="tech-tag">Google Gemini</span>
+                    <span class="tech-tag">OpenRouter</span>
+                    <span class="tech-tag">REST API</span>
+                  </div>
+                </div>
+
+                <div class="project-action-row">
+                  <button type="button" class="btn btn-primary finguard-modal-trigger">
+                    <i class="fa-solid fa-circle-info"></i> View Full Case Study
+                  </button>
+                  <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fa-brands fa-github"></i> GitHub Source
+                  </a>
+                </div>
+              </div>
+
+              <!-- FinGuard Visual Security Architecture Box -->
+              <div class="project-case-visual">
+                <div class="finguard-visual-wrap">
+                  <div class="finguard-shield-card">
+                    <div class="shield-header">
+                      <div class="shield-pulse-core">
+                        <div class="shield-icon-glow">
+                          <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div class="shield-title-wrap">
+                          <h4>FinGuard Core Engine</h4>
+                          <span>Multi-Platform Protection</span>
+                        </div>
+                      </div>
+                      <span class="live-pulse-dot" title="Active Monitoring"></span>
+                    </div>
+
+                    <div class="threat-monitor-grid">
+                      <div class="monitor-cell">
+                        <strong>Transaction Stream</strong>
+                        <span><i class="fa-solid fa-arrow-right-arrow-left" style="color: #38bdf8;"></i> Velocity Audited</span>
+                      </div>
+                      <div class="monitor-cell">
+                        <strong>UPI & Mandate Scan</strong>
+                        <span><i class="fa-solid fa-qrcode" style="color: #34d399;"></i> Heuristic Checked</span>
+                      </div>
+                      <div class="monitor-cell">
+                        <strong>Behavioral Drift</strong>
+                        <span><i class="fa-solid fa-chart-line" style="color: #fbbf24;"></i> Deviation Flags</span>
+                      </div>
+                      <div class="monitor-cell">
+                        <strong>Threat Scoring</strong>
+                        <span><i class="fa-solid fa-microchip" style="color: #f43f5e;"></i> Gemini Assisted</span>
+                      </div>
+                    </div>
+
+                    <div class="threat-indicator-bar">
+                      <span>Detection Engine Status</span>
+                      <strong>Active &bull; Real-Time Risk Scoring</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project 2: LOKEY-AI -->
+          <article class="project-case-card tilt-card">
+            <div class="project-case-inner">
+              <div class="project-case-content">
+                <div>
+                  <div class="project-badge-row">
+                    <span class="project-type-pill">Full-Stack AI Application</span>
+                    <span class="project-date">May 2026 – Jun 2026</span>
+                  </div>
+
+                  <h3 class="project-name">LOKEY-AI — Intelligent Academic Assistant</h3>
+
+                  <p class="project-summary">
+                    An AI-powered student assistant engineered to provide personalized academic guidance, study planning, and multilingual career roadmaps with conversational memory.
+                  </p>
+
+                  <div class="project-details-grid">
+                    <div class="detail-block">
+                      <h5>Problem</h5>
+                      <p>Students face difficulty organizing diverse study materials, obtaining tailored explanations, and maintaining consistent multi-turn context across learning sessions.</p>
+                    </div>
+
+                    <div class="detail-block">
+                      <h5>Solution & Key Features</h5>
+                      <ul>
+                        <li>Context-aware conversational interface with memory for natural academic mentoring.</li>
+                        <li>Multilingual query clarification and structured study schedule generator.</li>
+                        <li>Responsive UI deployed on Vercel with high-speed response streaming.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="tech-tag-row">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">AI Integration</span>
+                    <span class="tech-tag">Vercel</span>
+                  </div>
+                </div>
+
+                <div class="project-action-row">
+                  <a href="https://lokey-ai.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                  </a>
+                  <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fa-brands fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-case-visual">
+                <div class="visual-preview-box">
+                  <div class="preview-diagram-header">
+                    <span class="diagram-title">SYSTEM ARCHITECTURE</span>
+                    <i class="fa-solid fa-circle-nodes" style="color: var(--accent);"></i>
+                  </div>
+                  <div class="preview-chip-stack">
+                    <div class="preview-chip">
+                      <span>Frontend Interface</span>
+                      <strong>React + TypeScript</strong>
+                    </div>
+                    <div class="preview-chip">
+                      <span>AI Orchestration</span>
+                      <strong>Memory & Stream Handler</strong>
+                    </div>
+                    <div class="preview-chip">
+                      <span>Hosting & Edge</span>
+                      <strong>Vercel Deployment</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Featured Project 2: LOCALDESK-AI -->
+          <article class="project-case-card tilt-card">
+            <div class="project-case-inner">
+              <div class="project-case-content">
+                <div>
+                  <div class="project-badge-row">
+                    <span class="project-type-pill" style="color: var(--cyan); border-color: var(--cyan-border); background: var(--cyan-soft);">
+                      Native Offline Workspace
+                    </span>
+                    <span class="project-date">Apr 2026 – May 2026</span>
+                  </div>
+
+                  <h3 class="project-name">LOCALDESK-AI — PlanX (V-OS Alpha)</h3>
+
+                  <p class="project-summary">
+                    An offline-first personal workspace application designed to unify task management, personal finance, secure notes, and daily fitness routines within a unified, private dashboard.
+                  </p>
+
+                  <div class="project-details-grid">
+                    <div class="detail-block">
+                      <h5>Problem</h5>
+                      <p>Cloud-dependent productivity platforms risk sensitive personal data leakage and fail completely in zero-connectivity environments.</p>
+                    </div>
+
+                    <div class="detail-block">
+                      <h5>Solution & Key Features</h5>
+                      <ul>
+                        <li>Offline voice command processing supporting both English and Tamil.</li>
+                        <li>Strictly local data persistence using Room Database and private storage.</li>
+                        <li>Modular workspace interface with draggable productivity widgets and integrated Pomodoro timer.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="tech-tag-row">
+                    <span class="tech-tag">Kotlin</span>
+                    <span class="tech-tag">Jetpack Compose</span>
+                    <span class="tech-tag">Room Database</span>
+                    <span class="tech-tag">AI-Assisted Workflow</span>
+                  </div>
+                </div>
+
+                <div class="project-action-row">
+                  <a href="https://github.com/logesh760/LocalDesk-AI.git" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-github"></i> View Git Repository
+                  </a>
+                  <a href="https://github.com/logesh760/LocalDesk-AI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fa-solid fa-code-branch"></i> Documentation
+                  </a>
+                </div>
+              </div>
+
+              <div class="project-case-visual">
+                <div class="visual-preview-box">
+                  <div class="preview-diagram-header">
+                    <span class="diagram-title">LOCAL STORAGE STACK</span>
+                    <i class="fa-solid fa-shield-halved" style="color: var(--cyan);"></i>
+                  </div>
+                  <div class="preview-chip-stack">
+                    <div class="preview-chip">
+                      <span>Offline Voice Core</span>
+                      <strong>English & Tamil Lexicon</strong>
+                    </div>
+                    <div class="preview-chip">
+                      <span>Local Persistence</span>
+                      <strong>SQLite / Room DB</strong>
+                    </div>
+                    <div class="preview-chip">
+                      <span>Interface Pattern</span>
+                      <strong>Compose Declarative UI</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Secondary Projects -->
+          <div class="secondary-projects-grid">
+            
+            <div class="mini-project-card">
+              <div>
+                <span class="project-type-pill" style="margin-bottom: 12px; display: inline-block;">Core Java Simulation</span>
+                <h4>Stock Trading Platform</h4>
+                <p>
+                  A console-based stock trading simulation built with rigorous Object-Oriented Programming (OOP) principles. Features portfolio tracking, real-time buy/sell order validation, profit/loss calculations, and ledger management.
+                </p>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">OOP Concepts</span>
+                  <span class="tech-tag">Data Structures</span>
+                </div>
+              </div>
+              <a href="https://github.com/logesh760?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: fit-content;">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="mini-project-card">
+              <div>
+                <span class="project-type-pill" style="margin-bottom: 12px; display: inline-block;">Backend & Data Layer</span>
+                <h4>Java Database & JDBC Systems</h4>
+                <p>
+                  Relational data persistence and transactional workflows integrating Java applications with MySQL using JDBC. Implemented CRUD operations, connection life-cycle handling, and schema integration with NoSQL basics.
+                </p>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">JDBC</span>
+                  <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">CRUD</span>
+                </div>
+              </div>
+              <a href="https://github.com/logesh760?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: fit-content;">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="mini-project-card">
+              <div>
+                <span class="project-type-pill" style="margin-bottom: 12px; display: inline-block;">Web Applications</span>
+                <h4>Interactive Web Development Suite</h4>
+                <p>
+                  Responsive web applications including a real-time digital clock, interactive calculator, and clean dynamic interfaces focusing on clean DOM manipulation and cross-device accessibility.
+                </p>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                </div>
+              </div>
+              <a href="https://github.com/logesh760?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: fit-content;">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+            <div class="mini-project-card">
+              <div>
+                <span class="project-type-pill" style="margin-bottom: 12px; display: inline-block;">Logic Building</span>
+                <h4>Core Java Applications & Games</h4>
+                <p>
+                  Interactive simulation programs including an ATM interface simulation, student grading and analytics system, number guessing engine, and simple snake game built to deepen algorithmic problem-solving.
+                </p>
+                <div class="tech-tag-row">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">Algorithms</span>
+                  <span class="tech-tag">State Logic</span>
+                </div>
+              </div>
+              <a href="https://github.com/logesh760?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="width: fit-content;">
+                <i class="fa-brands fa-github"></i> View on GitHub
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-tag">// Technical Capability</span>
+          <h2 class="section-title">Skills & Technologies</h2>
+          <p class="section-desc">
+            Organized by functional domains. Grouped transparently based on hands-on project experience, without arbitrary percentage bars.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Group 1: Languages -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">Java</span>
+              <span class="skill-badge highlight">JavaScript</span>
+              <span class="skill-badge">C</span>
+              <span class="skill-badge">HTML5</span>
+              <span class="skill-badge">CSS3</span>
+              <span class="skill-badge">XML</span>
+            </div>
+          </div>
+
+          <!-- Group 2: Frameworks & Libraries -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-brands fa-java"></i></div>
+              <h3>Frameworks & Web</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">Spring Boot</span>
+              <span class="skill-badge">Tailwind CSS</span>
+              <span class="skill-badge">Bootstrap</span>
+              <span class="skill-badge">React (Basics)</span>
+              <span class="skill-badge">Node.js (Basics)</span>
+            </div>
+          </div>
+
+          <!-- Group 3: AI Development Tools -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-microchip"></i></div>
+              <h3>AI Development Tools</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">Google AI Studio</span>
+              <span class="skill-badge highlight">Antigravity</span>
+              <span class="skill-badge">Supabase</span>
+              <span class="skill-badge">Stitch</span>
+            </div>
+          </div>
+
+          <!-- Group 4: Databases -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-database"></i></div>
+              <h3>Databases & Persistence</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">MySQL</span>
+              <span class="skill-badge highlight">JDBC Connection</span>
+              <span class="skill-badge">MongoDB (Basics)</span>
+              <span class="skill-badge">Supabase</span>
+              <span class="skill-badge">Room Database</span>
+            </div>
+          </div>
+
+          <!-- Group 5: Core CS Concepts -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
+              <h3>Core Fundamentals</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">Data Structures (DSA)</span>
+              <span class="skill-badge highlight">OOP Principles</span>
+              <span class="skill-badge">Database Management (DBMS)</span>
+              <span class="skill-badge">REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Group 6: Deployment & Tools -->
+          <div class="skill-group-card">
+            <div class="skill-group-header">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+              <h3>Deployment & Version Control</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-badge highlight">Git & GitHub</span>
+              <span class="skill-badge">Vercel</span>
+              <span class="skill-badge">Render</span>
+              <span class="skill-badge">Netlify</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience, Education & Certifications -->
+    <section id="experience">
+      <div class="container">
+        
+        <div class="pathway-grid">
+          
+          <!-- Experience Column -->
+          <div>
+            <h3 class="pathway-col-title">
+              <i class="fa-solid fa-briefcase"></i> Work Experience
+            </h3>
+
+            <div class="experience-list">
+              
+              <div class="experience-card">
+                <div class="exp-header">
+                  <div>
+                    <h4 class="exp-role">Java Programming Intern</h4>
+                    <p class="exp-company">CodeAlpha</p>
+                  </div>
+                  <span class="exp-period">Dec 2025 – Jan 2026</span>
+                </div>
+                <p class="exp-desc">
+                  Strengthened Java programming and problem-solving skills through hands-on virtual internship projects. Focused on modular design, core algorithms, and test verification.
+                </p>
+              </div>
+
+              <div class="experience-card">
+                <div class="exp-header">
+                  <div>
+                    <h4 class="exp-role">Java Programming Intern</h4>
+                    <p class="exp-company">CodSoft</p>
+                  </div>
+                  <span class="exp-period">Sep 2025 – Oct 2025</span>
+                </div>
+                <p class="exp-desc">
+                  Completed a structured Java programming internship, building simulation logic, sharpening object-oriented design patterns, and writing clean, maintainable code.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Education & Certifications Column -->
+          <div>
+            <h3 class="pathway-col-title">
+              <i class="fa-solid fa-graduation-cap"></i> Education & Credentials
+            </h3>
+
+            <div class="edu-cert-stack">
+              
+              <div class="education-card">
+                <h4 class="edu-degree">Bachelor of Engineering — Computer Science & Engineering</h4>
+                <p class="edu-institution">Mahendra Institute of Technology, Salem</p>
+                <div class="edu-metric-row">
+                  <span class="edu-badge">Graduating: 2027</span>
+                  <span class="edu-badge">CGPA: 8.11 / 10</span>
+                </div>
+              </div>
+
+              <div class="education-card">
+                <h4 class="edu-degree">Higher Secondary Certificate (HSL — 12th)</h4>
+                <p class="edu-institution">Government Higher Secondary School, Dasanaickenpatty</p>
+                <div class="edu-metric-row">
+                  <span class="edu-badge">Score: 77.1%</span>
+                </div>
+              </div>
+
+              <div class="cert-mini-grid">
+                <div class="cert-item">
+                  <i class="fa-solid fa-certificate"></i>
+                  <div class="cert-item-info">
+                    <h5>Machine Learning Workshop</h5>
+                    <p>Sona College of Technology &bull; 27 Feb 2025</p>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <i class="fa-solid fa-lightbulb"></i>
+                  <div class="cert-item-info">
+                    <h5>Ideathon 2026 — Participation Certificate</h5>
+                    <p>Technical product ideation and competitive prototyping</p>
+                  </div>
+                </div>
+
+                <div class="cert-item">
+                  <i class="fa-solid fa-keyboard"></i>
+                  <div class="cert-item-info">
+                    <h5>Junior Grade Typewriting (English)</h5>
+                    <p>Government Technical Examinations</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-tag">// Background & Mindset</span>
+          <h2 class="section-title">About Me</h2>
+        </div>
+
+        <div class="about-box">
+          <div class="about-portrait-card">
+            <img src="profile.jpg" alt="Logeshwaran M">
+            <div class="about-portrait-overlay">
+              <div class="overlay-stat-row">
+                <div class="stat-item">
+                  <strong>Specialization</strong>
+                  <span>Java Full Stack</span>
+                </div>
+                <div class="stat-item">
+                  <strong>Location</strong>
+                  <span>Salem, Tamil Nadu</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-narrative">
+            <h3>Writing clean, efficient code to bridge core engineering with modern AI workflows.</h3>
+            
+            <p>
+              I am a final-year Computer Science and Engineering student at Mahendra Institute of Technology with an 8.11/10 CGPA. My journey in software engineering started with core Java and algorithmic logic, expanding into full-stack web applications and AI-accelerated developer tools.
+            </p>
+
+            <p>
+              I believe in writing code that is clear, maintainable, and built on sound architectural fundamentals. Whether simulating stock trading systems in Java or architecting offline-first desktop tools like LocalDesk-AI, I strive to build software that is dependable and practical.
+            </p>
+
+            <p>
+              Currently, I am actively seeking a <strong>Fresher Java Full Stack Developer</strong> role where I can contribute to production-grade applications, learn from experienced engineering teams, and solve meaningful real-world challenges.
+            </p>
+
+            <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary resume-trigger-btn" style="margin-top: 10px;">
+              <i class="fa-solid fa-file-pdf"></i> Read Full Resume
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        
+        <div class="section-head">
+          <span class="section-tag">// Get In Touch</span>
+          <h2 class="section-title">Let's build something useful.</h2>
+          <p class="section-desc">
+            Currently open to Fresher Java Full Stack Developer roles, engineering internships, and collaborative software projects.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info -->
+          <div class="contact-info-card">
+            <div>
+              <h3 style="font-size: 22px; font-weight: 700; color: #fff; margin-bottom: 8px;">Direct Communication</h3>
+              <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+                I am responsive via email, LinkedIn, and phone. Feel free to reach out with job inquiries or technical questions.
+              </p>
+
+              <div class="contact-channels">
+                <a href="mailto:logeshwaranm180@gmail.com" class="channel-link">
+                  <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="channel-meta">
+                    <strong>Email</strong>
+                    <span>logeshwaranm180@gmail.com</span>
+                  </div>
+                </a>
+
+                <a href="tel:+917603993833" class="channel-link">
+                  <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="channel-meta">
+                    <strong>Phone / WhatsApp</strong>
+                    <span>+91 7603993833</span>
+                  </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/logeshwaranm" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  <div class="channel-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="channel-meta">
+                    <strong>LinkedIn</strong>
+                    <span>linkedin.com/in/logeshwaranm</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer" class="channel-link">
+                  <div class="channel-icon"><i class="fa-brands fa-github"></i></div>
+                  <div class="channel-meta">
+                    <strong>GitHub</strong>
+                    <span>github.com/logesh760</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div style="padding-top: 20px; border-top: 1px solid var(--border-subtle); display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-size: 13px; color: var(--text-muted);">Verified Resume PDF</span>
+              <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary resume-trigger-btn" style="padding: 8px 16px; font-size: 13px;">
+                Download CV
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-card">
+            <h3>Send a Message</h3>
+            <p>Leave a note and your contact details. I will respond as soon as possible.</p>
+
+            <form name="submit-to-google-sheet" id="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name</label>
+                <input type="text" id="form-name" name="Name" class="form-control" placeholder="Jane Doe" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" name="Email" class="form-control" placeholder="jane@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" name="Message" class="form-control" rows="5" placeholder="Let's talk about a role or project..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">
+                Send Message &rarr;
+              </button>
+            </form>
+            <div id="contact-status-msg" class="form-status-msg"></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Clean Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>&copy; 2026 Logeshwaran M &bull; Final-Year Computer Science Student &bull; Salem, India</p>
+        <div style="display: flex; gap: 20px;">
+          <a href="#hero">Back to Top &uarr;</a>
+          <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="resume-trigger-btn">Resume</a>
+          <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top floating button -->
+  <button class="back-top-btn" id="back-top-btn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Interactive Scripts (Subtle 3D, Scrollspy, Tabs) -->
+  <script>
+    // 1. Sticky Navigation & Scrollspy
+    const siteHeader = document.getElementById('site-header');
+    const backTopBtn = document.getElementById('back-top-btn');
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      const scrollPos = window.scrollY;
+
+      // Header blur on scroll
+      if (scrollPos > 30) {
+        siteHeader.classList.add('scrolled');
+      } else {
+        siteHeader.classList.remove('scrolled');
+      }
+
+      // Back to top visibility
+      if (scrollPos > 400) {
+        backTopBtn.classList.add('visible');
+      } else {
+        backTopBtn.classList.remove('visible');
+      }
+
+      // Scrollspy
+      let currentSectionId = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        const sectionHeight = section.offsetHeight;
+        if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${currentSectionId}`) {
+          link.classList.add('active');
+        }
+      });
+    }, { passive: true });
+
+    // Back to top click
+    backTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // 2. Mobile Menu Toggle
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navLinksContainer = document.getElementById('nav-links');
+
+    if (mobileToggle && navLinksContainer) {
+      mobileToggle.addEventListener('click', () => {
+        const isOpen = navLinksContainer.classList.toggle('open');
+        mobileToggle.setAttribute('aria-expanded', isOpen);
+        mobileToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+      });
+
+      navLinksContainer.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinksContainer.classList.remove('open');
+          mobileToggle.setAttribute('aria-expanded', 'false');
+          mobileToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+        });
+      });
+    }
+
+    // 3. Subtle 3D Depth Card Tilt (Desktop only, respecting reduced-motion)
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
+    if (!prefersReducedMotion && canHover) {
+      const tiltCards = document.querySelectorAll('.tilt-card, .console-3d-card');
+
+      tiltCards.forEach(card => {
+        card.addEventListener('mousemove', (e) => {
+          const rect = card.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+
+          // Subtle angles (maximum 4 degrees for elegant, non-gimmicky depth)
+          const rotateX = ((y - centerY) / centerY) * -4;
+          const rotateY = ((x - centerX) / centerX) * 4;
+
+          card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-2px)`;
+        });
+
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateY(0)';
+        });
+      });
+    }
+
+    // 4. Interactive Hero Code Console Tab Switching
+    const codeTabs = document.querySelectorAll('.console-tab');
+    const codeDisplay = document.getElementById('console-code-display');
+
+    const codeSnippets = {
+      finguard: `
+        <div class="code-line"><span class="line-num">1</span><span class="code-content"><span class="kw">import</span> { <span class="cls">GeminiRiskAnalyzer</span> } <span class="kw">from</span> <span class="str">'./riskEngine.js'</span>;</span></div>
+        <div class="code-line"><span class="line-num">2</span><span class="code-content"><span class="comm">// FinGuard AI: Multi-Platform Transaction & UPI Scam Risk Engine</span></span></div>
+        <div class="code-line"><span class="line-num">3</span><span class="code-content"><span class="kw">export async function</span> <span class="fn">evaluateFinancialActivity</span>(event) {</span></div>
+        <div class="code-line"><span class="line-num">4</span><span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> heuristics = <span class="fn">detectBehavioralDeviation</span>(event);</span></div>
+        <div class="code-line"><span class="line-num">5</span><span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> isUpiAnomaly = <span class="fn">auditUpiMandatePattern</span>(event.upi);</span></div>
+        <div class="code-line"><span class="line-num">6</span><span class="code-content">&nbsp;&nbsp;<span class="kw">const</span> aiRiskScore = <span class="kw">await</span> <span class="cls">GeminiRiskAnalyzer</span>.<span class="fn">scoreThreat</span>({</span></div>
+        <div class="code-line"><span class="line-num">7</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;heuristics, isUpiAnomaly, metadata: event.commContext</span></div>
+        <div class="code-line"><span class="line-num">8</span><span class="code-content">&nbsp;&nbsp;});</span></div>
+        <div class="code-line"><span class="line-num">9</span><span class="code-content">&nbsp;&nbsp;<span class="kw">return</span> <span class="fn">generateExplainableAlert</span>(aiRiskScore);</span></div>
+        <div class="code-line"><span class="line-num">10</span><span class="code-content">}</span></div>
+      `,
+      java: `
+        <div class="code-line"><span class="line-num">1</span><span class="code-content"><span class="kw">package</span> com.logesh.lokey.ai;</span></div>
+        <div class="code-line"><span class="line-num">2</span><span class="code-content"><span class="kw">import</span> org.springframework.stereotype.<span class="cls">Service</span>;</span></div>
+        <div class="code-line"><span class="line-num">3</span><span class="code-content"><span class="comm">// AI-Powered Multilingual Academic Guidance Engine</span></span></div>
+        <div class="code-line"><span class="line-num">4</span><span class="code-content"><span class="kw">public class</span> <span class="cls">LokeyAssistantService</span> {</span></div>
+        <div class="code-line"><span class="line-num">5</span><span class="code-content">&nbsp;&nbsp;<span class="kw">private final</span> <span class="cls">MemoryStore</span> contextMemory;</span></div>
+        <div class="code-line"><span class="line-num">6</span><span class="code-content">&nbsp;&nbsp;<span class="kw">public</span> <span class="cls">GuidanceResponse</span> <span class="fn">generateStudyPlan</span>(<span class="cls">StudentQuery</span> q) {</span></div>
+        <div class="code-line"><span class="line-num">7</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return</span> aiClient.<span class="fn">streamContextAware</span>(q, contextMemory);</span></div>
+        <div class="code-line"><span class="line-num">8</span><span class="code-content">&nbsp;&nbsp;}</span></div>
+        <div class="code-line"><span class="line-num">9</span><span class="code-content">}</span></div>
+      `,
+      kotlin: `
+        <div class="code-line"><span class="line-num">1</span><span class="code-content"><span class="kw">package</span> com.logesh.localdesk.core;</span></div>
+        <div class="code-line"><span class="line-num">2</span><span class="code-content"><span class="kw">import</span> androidx.room.<span class="cls">Database</span></span></div>
+        <div class="code-line"><span class="line-num">3</span><span class="code-content"><span class="comm">// Offline-First Workspace Voice & Task Engine</span></span></div>
+        <div class="code-line"><span class="line-num">4</span><span class="code-content"><span class="kw">class</span> <span class="cls">OfflineVoiceController</span>(</span></div>
+        <div class="code-line"><span class="line-num">5</span><span class="code-content">&nbsp;&nbsp;<span class="kw">private val</span> roomDb: <span class="cls">WorkspaceDatabase</span></span></div>
+        <div class="code-line"><span class="line-num">6</span><span class="code-content">) {</span></div>
+        <div class="code-line"><span class="line-num">7</span><span class="code-content">&nbsp;&nbsp;<span class="kw">suspend fun</span> <span class="fn">handleVoiceIntent</span>(cmd: <span class="cls">String</span>, lang: <span class="cls">Lang</span>) {</span></div>
+        <div class="code-line"><span class="line-num">8</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;localParser.<span class="fn">executePrivateAction</span>(cmd, roomDb)</span></div>
+        <div class="code-line"><span class="line-num">9</span><span class="code-content">&nbsp;&nbsp;}</span></div>
+        <div class="code-line"><span class="line-num">10</span><span class="code-content">}</span></div>
+      `,
+      trading: `
+        <div class="code-line"><span class="line-num">1</span><span class="code-content"><span class="kw">package</span> com.logesh.stocktrading;</span></div>
+        <div class="code-line"><span class="line-num">2</span><span class="code-content"><span class="kw">import</span> java.util.<span class="cls">Map</span>;</span></div>
+        <div class="code-line"><span class="line-num">3</span><span class="code-content"><span class="comm">// Core Java Object-Oriented Stock Trading Simulation</span></span></div>
+        <div class="code-line"><span class="line-num">4</span><span class="code-content"><span class="kw">public class</span> <span class="cls">TradingPortfolioEngine</span> {</span></div>
+        <div class="code-line"><span class="line-num">5</span><span class="code-content">&nbsp;&nbsp;<span class="kw">public synchronized boolean</span> <span class="fn">executeOrder</span>(<span class="cls">Order</span> order) {</span></div>
+        <div class="code-line"><span class="line-num">6</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">if</span> (account.<span class="fn">hasSufficientBalance</span>(order.getCost())) {</span></div>
+        <div class="code-line"><span class="line-num">7</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ledger.<span class="fn">recordTransaction</span>(order);</span></div>
+        <div class="code-line"><span class="line-num">8</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return true</span>;</span></div>
+        <div class="code-line"><span class="line-num">9</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;}</span></div>
+        <div class="code-line"><span class="line-num">10</span><span class="code-content">&nbsp;&nbsp;&nbsp;&nbsp;<span class="kw">return false</span>;</span></div>
+        <div class="code-line"><span class="line-num">11</span><span class="code-content">&nbsp;&nbsp;}</span></div>
+        <div class="code-line"><span class="line-num">12</span><span class="code-content">}</span></div>
+      `
+    };
+
+    codeTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        codeTabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const tabKey = tab.getAttribute('data-tab');
+        if (codeSnippets[tabKey]) {
+          codeDisplay.innerHTML = codeSnippets[tabKey].trim();
+        }
+      });
+    });
+
+    // 5. Contact Form Submission
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzh1ywKqvvj3it4VGBR61mr-y3cE7Yz6Fjr6PUomysd87RAK6FYQIfnFiMgGW10Yo0Y/exec';
+    const contactForm = document.getElementById('contact-form');
+    const formStatusMsg = document.getElementById('contact-status-msg');
+    const submitBtn = document.getElementById('form-submit-btn');
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = 'Sending...';
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(contactForm) })
+          .then(res => {
+            formStatusMsg.className = 'form-status-msg success';
+            formStatusMsg.textContent = '✓ Message received. Thank you for reaching out!';
+            contactForm.reset();
+            setTimeout(() => {
+              formStatusMsg.textContent = '';
+            }, 6000);
+          })
+          .catch(err => {
+            // Friendly fallback message in case of CORS or connectivity
+            formStatusMsg.className = 'form-status-msg success';
+            formStatusMsg.textContent = '✓ Message noted! You can also reach me directly at logeshwaranm180@gmail.com.';
+            contactForm.reset();
+          })
+          .finally(() => {
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = 'Send Message &rarr;';
+          });
+      });
+    }
+
+    // 6. Resume Modal Viewer Handler
+    const resumeModal = document.getElementById('resume-modal');
+    const closeResumeModalBtn = document.getElementById('close-resume-modal');
+    const resumeTriggerBtns = document.querySelectorAll('.resume-trigger-btn');
+
+    function openResumeViewer(e) {
+      if (e) e.preventDefault();
+      if (resumeModal) {
+        resumeModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeResumeViewer() {
+      if (resumeModal) {
+        resumeModal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    resumeTriggerBtns.forEach(btn => {
+      btn.addEventListener('click', openResumeViewer);
+    });
+
+    if (closeResumeModalBtn) {
+      closeResumeModalBtn.addEventListener('click', closeResumeViewer);
+    }
+
+    if (resumeModal) {
+      resumeModal.addEventListener('click', (e) => {
+        if (e.target === resumeModal) {
+          closeResumeViewer();
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && resumeModal.classList.contains('active')) {
+          closeResumeViewer();
+        }
+      });
+    }
+
+    // 7. FinGuard AI Case Study Modal Handler
+    const finguardModal = document.getElementById('finguard-modal');
+    const closeFinguardModalBtn = document.getElementById('close-finguard-modal');
+    const finguardTriggers = document.querySelectorAll('.finguard-modal-trigger');
+
+    function openFinguardModal(e) {
+      if (e) e.preventDefault();
+      if (finguardModal) {
+        finguardModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeFinguardModal() {
+      if (finguardModal) {
+        finguardModal.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    }
+
+    finguardTriggers.forEach(btn => {
+      btn.addEventListener('click', openFinguardModal);
+    });
+
+    if (closeFinguardModalBtn) {
+      closeFinguardModalBtn.addEventListener('click', closeFinguardModal);
+    }
+
+    if (finguardModal) {
+      finguardModal.addEventListener('click', (e) => {
+        if (e.target === finguardModal) {
+          closeFinguardModal();
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && finguardModal.classList.contains('active')) {
+          closeFinguardModal();
+        }
+      });
+    }
+  </script>
+
+  <!-- Interactive FinGuard AI Case Study Modal -->
+  <div class="finguard-modal" id="finguard-modal" role="dialog" aria-modal="true" aria-labelledby="finguard-modal-title">
+    <div class="finguard-modal-dialog">
+      <div class="finguard-modal-header">
+        <h3 id="finguard-modal-title">
+          <i class="fa-solid fa-shield-halved" style="color: #34d399;"></i>
+          FinGuard AI &bull; Technical Case Study
+        </h3>
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <a href="https://github.com/logesh760" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 6px 14px; font-size: 13px;">
+            <i class="fa-brands fa-github"></i> GitHub Source
+          </a>
+          <button type="button" class="btn btn-ghost" id="close-finguard-modal" aria-label="Close modal" style="padding: 6px 12px; font-size: 16px;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="finguard-modal-body">
+        
+        <!-- Case Study Header -->
+        <div class="case-study-hero">
+          <span class="project-type-pill badge-finguard">
+            <i class="fa-solid fa-shield-halved"></i> AI-Powered Financial Scam Detection System
+          </span>
+          <h2>FinGuard AI — Multi-Platform Financial Threat Protection</h2>
+          <p>
+            FinGuard AI is a multi-platform financial scam detection system designed to identify suspicious financial activities, transactions, UPI requests, AutoPay mandates, and potentially fraudulent communication. The system combines rule-based analysis, behavioral analysis, machine learning concepts, and AI-powered risk analysis to detect suspicious patterns and provide understandable risk alerts.
+          </p>
+        </div>
+
+        <!-- 01 - Problem & Solution -->
+        <div class="case-section">
+          <div class="case-section-title">
+            <i class="fa-solid fa-triangle-exclamation"></i> 01 — Problem & Solution
+          </div>
+          <div class="case-card-grid">
+            <div class="case-info-box">
+              <h4><i class="fa-solid fa-bug" style="color: #fb7185;"></i> The Challenge</h4>
+              <p>
+                Financial scams occur across transactions, UPI collect requests, stealth AutoPay mandates, and digital communications (SMS, phishing messages, social channels). Traditional security only flags post-transaction fraud or relies on rigid blacklists without contextual or behavioral threat reasoning.
+              </p>
+            </div>
+            <div class="case-info-box">
+              <h4><i class="fa-solid fa-shield-check" style="color: #34d399;"></i> The FinGuard Solution</h4>
+              <p>
+                FinGuard AI introduces multi-stage risk evaluation analyzing transactional anomalies, mandate frequency, communication intent, and behavioral baseline deviations to compute an explainable risk score before financial loss occurs.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02 - Detection Areas -->
+        <div class="case-section">
+          <div class="case-section-title">
+            <i class="fa-solid fa-layer-group"></i> 02 — Multi-Vector Detection Areas
+          </div>
+          <div class="scope-chips-grid">
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-arrow-right-arrow-left" style="color: #38bdf8;"></i> Transactions</h5>
+              <p>Velocity checks, sudden surge in amounts, high-frequency micro-debits, and anomalous time-of-day transfers.</p>
+            </div>
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-qrcode" style="color: #34d399;"></i> UPI Requests</h5>
+              <p>Auditing unverified collect requests, fake merchant handles, and reverse payment phishing traps.</p>
+            </div>
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-repeat" style="color: #fbbf24;"></i> AutoPay & Mandates</h5>
+              <p>Detecting hidden recurring mandates, abnormal recurring caps, and deceptive subscription enrollments.</p>
+            </div>
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-comment-sms" style="color: #a78bfa;"></i> SMS & Messaging</h5>
+              <p>Parsing urgent payment links, fake KYC update alerts, and deceptive bank impersonation messages.</p>
+            </div>
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-user-shield" style="color: #f43f5e;"></i> Behavioral Anomalies</h5>
+              <p>Detecting divergence from habitual receiver profiles, geolocation shifts, and uncharacteristic payment volume.</p>
+            </div>
+            <div class="scope-chip-card">
+              <h5><i class="fa-solid fa-bell-exclamation" style="color: #fb7185;"></i> Real-Time Alerts</h5>
+              <p>Clear, explainable threat notifications empowering users with immediate block or verification guidance.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03 - Detection Pipeline -->
+        <div class="case-section">
+          <div class="case-section-title">
+            <i class="fa-solid fa-diagram-project"></i> 03 — Multi-Stage Detection Pipeline
+          </div>
+          <div class="pipeline-flow">
+            <div class="pipeline-nodes-wrapper">
+              <div class="pipeline-node-item">
+                <strong>Stage 01</strong>
+                Input Event
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 02</strong>
+                Data Analysis
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 03</strong>
+                Feature Extraction
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 04</strong>
+                Rule & Heuristic Engine
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 05</strong>
+                AI Risk Reasoning
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 06</strong>
+                Risk Score
+              </div>
+              <span class="pipeline-arrow">&rarr;</span>
+              <div class="pipeline-node-item">
+                <strong>Stage 07</strong>
+                Explainable Alert
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04 - System Architecture -->
+        <div class="case-section">
+          <div class="case-section-title">
+            <i class="fa-solid fa-network-wired"></i> 04 — System Architecture
+          </div>
+          <div class="arch-diagram-card">
+            <div class="arch-flow-row">
+              <div class="arch-node-box">
+                <h5>1. Client Interface</h5>
+                <p>React + Vite + Tailwind CSS dashboard providing instant risk metrics, alert feeds, and transaction inspection.</p>
+              </div>
+              <div class="arch-node-box">
+                <h5>2. Backend API</h5>
+                <p>Node.js & Express.js REST endpoints handling event ingestion, payload validation, and rate control.</p>
+              </div>
+              <div class="arch-node-box accent-node">
+                <h5>3. Risk Analysis Engine</h5>
+                <p>Core evaluation layer executing rule filters, UPI mandate checks, and behavioral variance audits.</p>
+              </div>
+              <div class="arch-node-box">
+                <h5>4. AI Threat Reasoning</h5>
+                <p>Google Gemini & OpenRouter contextual analysis synthesizing multi-vector telemetry into plain-English risk alerts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05 - Machine Learning & AI Engineering (Implemented vs Research/Planned) -->
+        <div class="case-section">
+          <div class="case-section-title">
+            <i class="fa-solid fa-microchip"></i> 05 — Machine Learning & Detection Algorithms
+          </div>
+          <div class="ml-status-grid">
+            <div class="ml-column-card">
+              <div class="ml-column-title">
+                <h4>Currently Implemented</h4>
+                <span class="status-badge-implemented">Implemented</span>
+              </div>
+              <div class="ml-item-list">
+                <div class="ml-item">
+                  <strong>Behavioral Anomaly & Deviation Detection</strong>
+                  Rule-based threshold scoring identifying uncharacteristic velocity, high-risk merchant IDs, and sudden balance depletion spikes.
+                </div>
+                <div class="ml-item">
+                  <strong>Suspicious UPI & Mandate Auditing</strong>
+                  Pattern detection for collect requests disguised as cashback, suspicious recurring mandates, and unknown VPA syntax.
+                </div>
+                <div class="ml-item">
+                  <strong>AI Threat Reasoning & Contextual Scoring</strong>
+                  Google Gemini & OpenRouter integration to assess unstructured SMS / communication inputs and output plain-language risk breakdowns.
+                </div>
+              </div>
+            </div>
+
+            <div class="ml-column-card">
+              <div class="ml-column-title">
+                <h4>Research & Planned Algorithms</h4>
+                <span class="status-badge-research">Research & Planned</span>
+              </div>
+              <div class="ml-item-list">
+                <div class="ml-item">
+                  <strong>Isolation Forest & Unsupervised Clustering</strong>
+                  Planned for multi-dimensional anomaly isolation across high-dimensional transaction volume and timing vectors.
+                </div>
+                <div class="ml-item">
+                  <strong>XGBoost Gradient Boosting</strong>
+                  Under research for supervised classification using labeled financial fraud datasets to predict risk probability.
+                </div>
+                <div class="ml-item">
+                  <strong>Autoencoder Neural Networks & SHAP Explainability</strong>
+                  Architecture research for reconstruction error anomaly flags and SHAP feature attribution values for regulatory explainability.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06 - Technology Stack -->
+        <div class="case-section" style="margin-bottom: 0;">
+          <div class="case-section-title">
+            <i class="fa-solid fa-cubes"></i> 06 — Technologies & Verified Stack
+          </div>
+          <div class="tech-tag-row" style="margin-bottom: 0;">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Vite</span>
+            <span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Express.js</span>
+            <span class="tech-tag">Google Gemini</span>
+            <span class="tech-tag">OpenRouter</span>
+            <span class="tech-tag">REST API</span>
+            <span class="tech-tag">Git / GitHub</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Interactive Resume Viewer Modal -->
+  <div class="resume-modal" id="resume-modal" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title">
+    <div class="resume-modal-dialog">
+      <div class="resume-modal-header">
+        <h3 id="resume-modal-title">
+          <i class="fa-solid fa-file-pdf" style="color: var(--accent);"></i>
+          Logeshwaran_M.pdf &bull; Official Resume
+        </h3>
+        <div class="resume-modal-actions">
+          <a href="Logeshwaran_M.pdf" download="Logeshwaran_M.pdf" class="btn btn-primary" style="padding: 6px 14px; font-size: 13px;">
+            <i class="fa-solid fa-download"></i> Download PDF
+          </a>
+          <a href="Logeshwaran_M.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="padding: 6px 14px; font-size: 13px;">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in New Tab
+          </a>
+          <button type="button" class="btn btn-ghost" id="close-resume-modal" aria-label="Close resume viewer" style="padding: 6px 12px; font-size: 16px;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <div class="resume-modal-body">
+        <iframe src="Logeshwaran_M.pdf#toolbar=1" id="resume-modal-iframe" title="Logeshwaran M Resume PDF"></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
